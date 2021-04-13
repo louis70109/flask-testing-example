@@ -3,7 +3,7 @@ from models.stream import Stream
 NAME = "Brown"
 
 def stream_hello():
-    stream = Stream(name='sally')
+    stream = Stream(name=NAME)
     text = stream.hello()
     return text
 
